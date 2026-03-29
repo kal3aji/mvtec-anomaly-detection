@@ -74,7 +74,7 @@ mvtec-anomaly-detection/
 ### 1. Install dependencies
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mvtec-anomaly-detection
+git clone https://github.com/kal3aji/mvtec-anomaly-detection
 cd mvtec-anomaly-detection
 python -m venv venv && source venv/Scripts/activate   # Windows
 pip install -r requirements.txt
