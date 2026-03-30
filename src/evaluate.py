@@ -15,6 +15,8 @@ import pickle
 import numpy as np
 import torch
 import cv2
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 from sklearn.metrics import roc_auc_score, roc_curve

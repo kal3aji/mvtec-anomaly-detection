@@ -11,14 +11,12 @@ Two methods implemented and compared:
 
 ## Why This Problem
 
-In additive manufacturing (e.g. binder jetting of ceramics), surface and structural
-defects must be caught early — before sintering — to avoid wasting expensive material
-and machine time. Automated visual inspection with anomaly detection replaces slow,
-inconsistent manual checks.
+In industrial manufacturing, surface and structural defects must be caught early
+to avoid wasting expensive material and machine time. Automated visual inspection
+with anomaly detection replaces slow, inconsistent manual checks.
 
 The MVTec AD dataset provides a rigorous public benchmark for exactly this type of
-system. The `tile` and `wood` categories closely resemble the ceramic and sintered
-surface textures found in real AM quality inspection.
+system, covering a wide range of industrial surface textures and defect types.
 
 ---
 
@@ -42,7 +40,9 @@ results/heatmaps/patchcore/crack_12.png
 results/heatmaps/patchcore/glue_strip_7.png
 ```
 
-*(Add your result images here once generated)*
+![PatchCore heatmap — tile/crack](results/heatmaps/patchcore/crack_2.png)
+
+*PatchCore correctly localises a crack defect on the tile surface (score=6.83).*
 
 ---
 
